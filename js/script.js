@@ -48,14 +48,14 @@ const classReport = document.querySelector('.report');
 console.log("classReport ", classReport);
 
 
-financeReport.addEventListener("cklik", (event) => {
+financeReport.addEventListener("click", (event) => {
     event.preventDefault();
     console.log('event');
 });
 
 
 classReport.classList.add("open");
-classReport.classList.remove("open");
+// classReport.classList.remove("open");
 
 
 
