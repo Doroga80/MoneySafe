@@ -55,4 +55,7 @@ financeReport.addEventListener("cklik", (event) => {
 
 
 classReport.classList.add("open");
+classReport.classList.remove("open");
+
+
 
