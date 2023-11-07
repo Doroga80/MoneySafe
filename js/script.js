@@ -48,9 +48,8 @@ const classReport = document.querySelector('.report');
 console.log("classReport ", classReport);
 
 
-financeReport.addEventListener("click", (event) => {
-    event.preventDefault();
-    console.log('event');
+financeReport.addEventListener("click", () => {
+    console.log('report');
 });
 
 
