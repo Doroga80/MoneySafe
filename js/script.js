@@ -36,3 +36,23 @@ financeForm.addEventListener("submit", (event) => {
 
 
 });
+
+/**
+ * Домашнее задание к 1-му уроку.
+ */
+
+const financeReport = document.querySelector('.finance__report');
+console.log("financeReport ", financeReport);
+
+const classReport = document.querySelector('.report');
+console.log("classReport ", classReport);
+
+
+financeReport.addEventListener("cklik", (event) => {
+    event.preventDefault();
+    console.log('event');
+});
+
+
+classReport.classList.add("open");
+
